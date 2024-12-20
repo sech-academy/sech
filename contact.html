@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacts</title>
+  <style>
+    body {
+      background-color: skyblue;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 10px;
+    }
+
+    h2 {
+      color: #4169e1;
+      font-size: 24px;
+      font-weight: bold;
+      text-decoration: underline;
+      text-transform: uppercase;
+    }
+
+    p {
+      font-size: 26px;
+      line-height: 1.6;
+    }
+
+    .images {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); /* 2 columns of equal width */
+      grid-gap: 20px; /* Add space between images */
+      max-width: 900px;
+      margin: 20px auto;
+    }
+
+    .images img {
+      width: 100%; /* Each image should take up the full width of its grid cell */
+      height: auto; /* Maintain aspect ratio */
+      border-radius: 5px; /* Optional for rounded corners */
+    }
+
+    .nav {
+      display: flex;
+      justify-content: space-around;
+      padding: 10px 0;
+      background-color: royalblue;
+      color: white;
+      font-size: 18px;
+      flex-wrap: wrap;
+    }
+
+    .nav a {
+      color: white;
+      text-decoration: none;
+      padding: 8px 16px;
+    }
+
+    .nav a:hover {
+      background-color: skyblue;
+    }
+
+    /* Responsive adjustments for smaller screens */
+    @media (max-width: 768px) {
+      .container {
+        padding: 15px;
+        margin: 10px;
+      }
+
+      h2 {
+        font-size: 20px;
+      }
+
+      p {
+        font-size: 20px;
+      }
+
+      .images {
+        grid-template-columns: 1fr; /* Stack images in one column on small screens */
+        grid-gap: 15px;
+      }
+
+      .nav {
+        flex-direction: column;
+        align-items: center;
+        font-size: 16px;
+      }
+
+      .nav a {
+        padding: 10px 0;
+        width: 100%;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="nav">
+    <a href="index.html">Home</a>
+    <a href="Vision.html">Vision</a>
+    <a href="Mission.html">Mission</a>
+    <a href="Objectives.html">Objectives</a>
+    <!--<a href="The SECH Way.html">The SECH Way</a>-->
+    <a href="Fee Structure.html">FEE Structure</a>
+    <a href="Why choose us.html">Why Choose Us</a>
+   <!-- <a href="admission.html">Admissions</a> -->
+    <a href="curriculum.html">Curriculum</a>
+    <a href="grading-system.html">Grading System</a>
+    <a href="contact.html">Contacts</a>
+    <a href="about.html">About Us</a>
+  </div>
+
+  <div class="container">
+    <h2>contacts</h2>
+    <p>Phone: 59669494 </p>
+    <p> Location: Thabaneng Leloaleng  </p>
+    <p>Email: sechacademy2024@gmail.com </p>
+  </div>
+    
+  <div class="images">
+    <img src="loc-ate.png" alt="Image 2">
+  </div>
+
+</body>
+</html>
